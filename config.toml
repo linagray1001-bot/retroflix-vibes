@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "RetroFlix Vibes"
+paginate = 10
+enableRobotsTXT = true
+[params]
+  description = "Retro vibes for modern streaming"
+  author = "RetroFlix Vibes Team"
+[outputs]
+  home = ["HTML", "RSS"]
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+[markup.goldmark.renderer]
+  unsafe = true
